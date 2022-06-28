@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="512px-Money_Flat_Icon.svg.png" />
+    <None Remove="money.png" />
+    <None Remove="Money_Flat_Icon.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="512px-Money_Flat_Icon.svg.png" />
+    <Resource Include="money.png" />
+    <Resource Include="Money_Flat_Icon.svg" />
+  </ItemGroup>
+
+</Project>
